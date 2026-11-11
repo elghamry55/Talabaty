@@ -89,10 +89,6 @@ assets/
    flutter run
    ```
 
-## Screenshots
-
-_Add application screenshots here to showcase the dashboard, order management, and order details screens._
-
 ## Developer
 
 **Mahmoud Elghamry**  
