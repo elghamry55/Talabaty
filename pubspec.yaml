@@ -1,0 +1,43 @@
+name: quickorder
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  screenshot: ^3.0.0
+  share_plus: ^7.2.1
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # 👇 إضافة توليد الأيقونة
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+
+  uses-material-design: true
+
+  # لو هتحط أيقونة التطبيق
+  assets:
+    - assets/talabatey.png
+
+
+# ================= APP ICON CONFIG =================
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/talabatey.png"
+  background_color: "#050816"
+  min_sdk_android: 21
